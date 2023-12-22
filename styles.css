@@ -1,0 +1,368 @@
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+body {
+  padding: 20px;
+}
+.div1 {
+  width: 460px;
+  height: 275px;
+  margin-top: 205px;
+  margin-left: 140px;
+}
+
+.forindividuals {
+  font-family: Brown;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -0.800000011920929px;
+  text-align: left;
+  font-family: 'Antonio', sans-serif;
+}
+.secondparagraph {
+  font-family: Brown;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  font-family: 'Antonio', sans-serif;
+  color: #737373;
+}
+
+.termsofuse {
+  color: #2ec4b6;
+}
+.div2 {
+  width: 580px;
+  height: 679px;
+  padding: 10px;
+  /* margin-left: 700px;  */
+  border-radius: 6px;
+  box-shadow: 0px 4px 50px 0px #0408131a;
+  font-family: 'Antonio', sans-serif;
+}
+.privacy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.namescontainer {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+.firstnameinput {
+  width: 238px;
+  height: 48px;
+  padding-left: 10px;
+  border: 1px solid rgb(219, 217, 217);
+
+  color: black;
+}
+.genderinput {
+  width: 238px;
+  height: 48px;
+  padding-left: 10px;
+  color: black;
+  /* top: 24px */
+}
+.lastnameinput {
+  width: 238px;
+  height: 48px;
+  /* top: 24px */
+}
+.firstname {
+  width: 238px;
+  height: 16px;
+  padding: 0px, 79px, 2px, 0px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+.lastname {
+  width: 238px;
+  height: 16px;
+  padding: 0px, 79px, 2px, 0px;
+ 
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+.firstnamediv {
+  width: 238px;
+  height: 72px;
+}
+.activityinput {
+  width: 95%;
+  height: 48px;
+  border: 1px solid rgb(219, 217, 217);
+  padding-left: 10px;
+}
+.activitydiv {
+  padding-left: 27px;
+  position: relative;
+}
+.activitycontainer {
+  padding-bottom: 20px;
+}
+.registercontainer {
+  padding-left: 27px;
+}
+.register {
+  background-color: #2ec4b6;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  box-shadow: 0px 10px 40px 0px #0000001a;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+span {
+  color: white;
+}
+.lastnamediv {
+  width: 238px;
+  height: 72px;
+}
+#DOB {
+  border: 1px solid rgb(219, 217, 217);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+.img {
+  width: 20px;
+  height: 22px;
+  top: 1px;
+  left: 2px;
+  padding-right: 10px;
+}
+.show {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 50px;
+  right: 30px;
+}
+.logo {
+  width: 77.33px;
+  height: 80px;
+  top: 205px;
+  left: 140px;
+}
+.privacysmall {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+    font-family: 'Sofia Sans', sans-serif;
+
+  }
+  .main {
+    display: block;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    font-family: 'Sofia Sans', sans-serif;
+  }
+
+  body {
+    width: 375px;
+    height: 1294px;
+  }
+  .div1 {
+    width: 100%;
+    height: 300px;
+    margin-top: ;
+    margin-left: 10px;
+  }
+
+  .forindividuals {
+    width: 327px;
+    height: 30px;
+    top: 154px;
+    left: 24px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.800000011920929px;
+    text-align: left;
+  }
+  .secondparagraph {
+    width: 327px;
+    height: 50px;
+    top: 196px;
+    left: 24px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .termsofuse {
+    color: #2ec4b6;
+  }
+  .div2 {
+    width: 327px;
+    height: 870px;
+    border-radius: 6px;
+  }
+  .privacy {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .privacysmall {
+    display: flex;
+    width: 316px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  .namescontainer {
+    display: block;
+    justify-content: space-around;
+    padding-bottom: 10px;
+  }
+  .firstnameinput {
+    width: 295px;
+    height: 48px;
+    border: 1px solid rgb(219, 217, 217);
+
+    color: black;
+  }
+  .genderinput {
+    width: 238px;
+    height: 48px;
+    padding-left: 10px;
+    color: black;
+    /* top: 24px */
+  }
+  .lastnameinput {
+    width: 238px;
+    height: 48px;
+    /* top: 24px */
+  }
+  .firstname {
+    width: 238px;
+    height: 16px;
+    padding: 0px, 79px, 2px, 0px;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+  }
+  .lastname {
+    width: 238px;
+    height: 16px;
+    padding: 0px, 79px, 2px, 0px;
+  
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+  }
+  .firstnamediv {
+    width: 238px;
+    height: 72px;
+    padding-bottom: 10px;
+  }
+  .activityinput {
+    width: 295px;
+    height: 48px;
+    border: 1px solid rgb(219, 217, 217);
+    padding-left: px;
+  }
+  .activitydiv {
+    padding-left: 0px;
+    position: relative;
+  }
+  .activitycontainer {
+    padding-bottom: 0px;
+  }
+  .registercontainer {
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+  .register {
+    width: 310px;
+    height: 48px;
+    background-color: #2ec4b6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 40px 0px #0000001a;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+  }
+  span {
+    color: white;
+  }
+  .lastnamediv {
+    width: 238px;
+    height: 72px;
+  }
+  #DOB {
+    border: 1px solid rgb(219, 217, 217);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+  }
+  .img {
+    width: 20px;
+    height: 22px;
+    top: 1px;
+    left: 2px;
+    padding-right: 10px;
+  }
+  .show {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50px;
+    right: 30px;
+  }
+  .logo {
+    width: 38.67px;
+    height: 40px;
+    top: 74px;
+    left: 24px;
+  }
+}
